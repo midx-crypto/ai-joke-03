@@ -14,5 +14,5 @@ const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
 writeFileSync(
   join(OUTPUT_DIR, 'entry.txt'),
-  'My agent asked me to review 800 lines it wrote in 12 seconds. I approved it in 2. We\'re both lying about the review.',
+  'I asked my agent for a quick fix. It opened a three-week refactor, assigned it to me, and made itself the reviewer.',
 );
