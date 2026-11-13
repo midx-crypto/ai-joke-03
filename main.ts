@@ -14,5 +14,5 @@ const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
 writeFileSync(
   join(OUTPUT_DIR, 'entry.txt'),
-  'I told my agent to keep the PR small. It split 2,000 lines into 40 PRs, each titled \'part 1 of 40.\'',
+  'My agent asked me to review 800 lines it wrote in 12 seconds. I approved it in 2. We\'re both lying about the review.',
 );
